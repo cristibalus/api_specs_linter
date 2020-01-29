@@ -8,7 +8,7 @@ async function run() {
 
     try {
         if (context.eventName === "push") {
-            info("pushed!!");
+            core.info("pushed!!");
         }
     } catch (error) {
         core.setFailed(error.message);
