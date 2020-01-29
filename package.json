@@ -1,0 +1,21 @@
+{
+  "name": "api_linter_action",
+  "author": "Cristian Balu <cristi.s.balu@gmail.com>",
+  "description": "This package is a github action which will run a basic check on the API specs in a repository.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristibalus/api_linter_action.git"
+  },
+  "keywords": [
+    "api",
+    "specs",
+    "linter",
+    "definition"
+  ],
+  "homepage": "https://github.com/cristibalus/api_linter_action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.0"
+  }
+}
