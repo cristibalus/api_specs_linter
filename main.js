@@ -1,5 +1,5 @@
-import { setFailed, info } from "@actions/core";
-import github from "@actions/github";
+let core = require("@actions/core");
+let github = require("@actions/github");
 
 run();
 
@@ -11,6 +11,6 @@ async function run() {
             info("pushed!!");
         }
     } catch (error) {
-        setFailed(error.message);
+        core.setFailed(error.message);
     }
 }
