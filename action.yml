@@ -1,5 +1,0 @@
-name: "API Linter"
-description: "Check the specs for all the APIs in a repository"
-runs:
-  using: "node12"
-  main: "main.js"

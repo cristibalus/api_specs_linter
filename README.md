@@ -1,3 +1,3 @@
-# API Linter Action
+# API specs linter
 
-This action will run a basic check on the API specs in the repository. The checks which will be run are:
+This tool will look for all the API specs in the repository and perform styling checks on them.
