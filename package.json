@@ -14,5 +14,7 @@
     "definition"
   ],
   "homepage": "https://github.com/cristibalus/api_linter_action#readme",
-  "dependencies": {}
+  "dependencies": {
+    "node": "^13.6.0"
+  }
 }
